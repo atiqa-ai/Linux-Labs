@@ -1,41 +1,30 @@
 # Mini Linux Lab 01
 
-## User, Groups & Permissions
+## Creating User, Groups & Assigning Permissions
 
 ### Objective
 
 Create a Linux user, assign groups, configure a shared directory, and verify permissions.
 
----
-
-## Lab Files
-
-```text
-lab-01-user-group-permissions/
-├── README.md
-└── lab-01.sh
-```
-
----
 
 ## Commands Used
 
-| Command        | Purpose                           |
-| -------------- | --------------------------------- |
-| `whoami`       | Show current logged-in user       |
-| `id`           | Display user identity information |
-| `groupadd`     | Create a new group                |
-| `useradd`      | Create a new user                 |
-| `passwd`       | Set user account password         |
-| `usermod -aG`  | Add user to group                 |
-| `groups`       | Display user group memberships    |
-| `getent group` | Verify group information          |
-| `mkdir -p`     | Create directory safely           |
-| `chown`        | Change owner and group            |
-| `chmod 2775`   | Set permissions and setgid        |
-| `touch`        | Create an empty file              |
-| `ls -ld`       | Show directory permissions        |
-| `ls -l`        | Show file ownership details       |
+| Command        | Purpose                            |
+| -------------- | ---------------------------------   |
+| `whoami`       | Show current logged-in user         |
+| `id`           | Display user identity information   |
+| `groupadd`     | Create a new group                  |
+| `useradd`      | Create a new user                   |
+| `passwd`       | Set user account password           |
+| `usermod -aG`  | Add user to group                   |
+| `groups`       | Display user group memberships      |
+| `getent group` | Verify group information            | 
+| `mkdir -p`     | Create directory safely             |
+| `chown`        | Change owner and group              |
+| `chmod 2775`   | Set permissions and setgid          |
+| `touch`        | Create an empty file                |
+| `ls -ld`       | Show directory permissions          |
+| `ls -l`        | Show file ownership details         |
 
 ---
 
